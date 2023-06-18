@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="light"> <!-- The atribute ""class="light"" will be used to switch between light and dark modes-->
+  <head>
+<!-- Link tags containing the font properties -->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+<!-- Usual browser configs -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- Title that will be displayed on the browser tab -->
+    <title>Links importantes - Carlos Verde</title>
+
+  </head>
+  <body>
+<!-- This <div> marks the start of this link tree and it contains the whole stucture of it -->
+    <div id="container">
+<!-- In this section are your picture and your name/username that will be displayed on the top of the link tree -->
+
+      <div id="profile">
+        <img
+          src="../PROJETO/assets/avatar-light-cropped.png"
+          alt="Foto do Carlos Verde sorrindo de braços cruzados"
+        />
+        <p>@carlosveerde</p>
+      </div>
+
+<!-- In this section is your switch button to alternate between light and dark modes-->      
+     <div id="switch" onclick="toggleMode()">
+      <button>
+      </button>
+      <span>
+      </span>
+    </div>
+<!-- In this section are the link buttons of your link tree -->
+      <div id="links">
+        <ul>
+          <li>
+            <a href="#" target="_blank">Acesse o meu site!</a>
+          </li>
+          <li>
+            <a href="#" target="_blank">Minha loja virtual!</a>
+          </li>
+          <li>
+            <a href="#" target="_blank">Veja meu portfólio!</a>
+          </li>
+          <li>
+            <a href="#" target="_blank">Fale comigo no Whatsapp!</a>
+          </li>
+        </ul>
+      </div>
+<!-- In this section are the icons imported from ionicons and linked to social media of your choice -->
+      <div id="social-links">
+        <a href="https://github.com/carlosveerde" target="_blank">
+        <ion-icon name="logo-github"></ion-icon>
+      </a>
+      <a href="https://www.instagram.com/carlosveerde/" target="_blank">
+        <ion-icon name="logo-instagram"></ion-icon>
+      </a>
+        <a href="https://www.youtube.com/@carlosveerde" target="_blank">
+        <ion-icon name="logo-youtube"></ion-icon>
+      </a>
+        <a href="https://www.linkedin.com/in/carlosveerde/" target="_blank">
+        <ion-icon name="logo-linkedin"></ion-icon>
+      </a>
+      </div>
+<!-- In this section can put the message that displays below the page -->      
+      <footer>Feito com ♥ por <a href="https://github.com/carlosveerde" target="
+        ">Carlos Verde</a> </footer>
+
+<!-- This <div> marks the end of this link tree structure-->    
+
+<!-- This script is needed to import the icons from ionicons used in the "social links section"-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="./script.js"> </script>
+
+  </body>
+</html>
