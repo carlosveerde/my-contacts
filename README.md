@@ -18,7 +18,7 @@ Web Page containing a beatiful <strong>Link Tree </strong> that's able to change
 <br>
 
 <p align="center">
-  <img alt="calendario da copa" src=".github/preview.jpg" width="100%">
+  <img alt="Linktree" src=".github/preview.png" width="100%">
 </p>
 
 ## 🚀 Techs
@@ -40,8 +40,8 @@ You can see the original Layout for this project by clicking in [THIS LINK](<htt
 
 ## :memo: Licença
 
-Esse projeto está sob a licença MIT.
+This project is under MIT license.
 
 ---
 
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+Made with ♥ by Carlos Verde :wave: [Reach me in!](https://www.linkedin.com/in/carlosveerde/)
