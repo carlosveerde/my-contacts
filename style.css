@@ -10,7 +10,7 @@
 
 :root {
   --text-color: white; /* creation of a variable for text color  */
-  --bg-url: url(./assets/Background-mobile-dark.jpg); /* creation of a variable for the background image */
+  --bg-url: url(./assets/background-mobile-dark.png); /* creation of a variable for the background image */
   --stroke-color: rgba(
     255,
     255,
@@ -39,7 +39,7 @@
 }
 .light {
   --text-color: black;
-  --bg-url: url(./assets/Background-mobile-light.jpg);
+  --bg-url: url(./assets/background-mobile-light.png);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(255, 255, 255, 0.05);
@@ -189,10 +189,10 @@ footer {
 
 @media (min-width: 700px) {
   :root {
-    --bg-url: url(./assets/bg-desktop.jpg); /* change the background for the dark theme */
+    --bg-url: url(./assets/bg-desktop.png); /* change the background for the dark theme */
   }
   .light {
-    --bg-url: url(./assets/bg-desktop-light.jpg); /* change the background for the light theme */
+    --bg-url: url(./assets/bg-desktop-light.png); /* change the background for the light theme */
   }
 }
 
