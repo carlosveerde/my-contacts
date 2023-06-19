@@ -1,4 +1,4 @@
-<h1 align="center"> Link Tree </h1>
+<h1 align="center"><img src="./assets/favicon.ico" height="36px" width="36px" alt="♥">  Link Tree </h1>
 
 <p align="center">
 Web Page containing a beatiful <strong>Link Tree </strong> that's able to change to light and dark mode.
@@ -44,4 +44,4 @@ This project is under MIT license.
 
 ---
 
-Made with ♥ by Carlos Verde :wave: [Reach me in!](https://www.linkedin.com/in/carlosveerde/)
+Made with <img src="./assets/favicon.ico" height="25px" width="25px" alt="♥"> by Carlos Verde :wave: [Reach me!](https://www.linkedin.com/in/carlosveerde/)
